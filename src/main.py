@@ -1,5 +1,4 @@
 import requests
-from operator import itemgetter
 
 r = requests.get('https://leetcode.com/api/problems/all/')
 json = r.json()
